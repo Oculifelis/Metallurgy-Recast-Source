@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RER"
+  ],
+  "key": {
+    "E": "#c:ingots/etherium",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "metallurgy:etherium_goggles",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:etherium_goggles"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "type": "neoforge:mod_loaded",
+            "modid": "thaumaturge"
+          },
+          {
+            "type": "metallurgy:integration_enabled",
+            "integration": "thaumaturge"
+          }
+        ]
+      }
+    }
+  ]
+}
