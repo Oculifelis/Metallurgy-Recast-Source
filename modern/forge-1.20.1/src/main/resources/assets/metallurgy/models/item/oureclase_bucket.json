@@ -1,5 +1,6 @@
 {
   "parent": "forge:item/bucket",
   "loader": "forge:fluid_container",
-  "fluid": "metallurgy:oureclase"
+  "fluid": "metallurgy:oureclase",
+  "apply_fluid_luminosity": false
 }

@@ -13,13 +13,13 @@ public final class GadgetItem extends Item {
     public GadgetItem(String id,Properties properties) { super(gauntletProperties(id,properties));this.id=id; }
     // GAUNTLET_TOOL_START
     private static Properties gauntletProperties(String id,Properties properties) {
-        if(!id.equals("rubracium_gauntlet")) return properties;
+        if(!id.endsWith("_gauntlet")) return properties;
         return properties.component(net.minecraft.core.component.DataComponents.TOOL,new net.minecraft.world.item.component.Tool(java.util.List.of(
             net.minecraft.world.item.component.Tool.Rule.deniesDrops(Tiers.IRON.getIncorrectBlocksForDrops()),
             net.minecraft.world.item.component.Tool.Rule.minesAndDrops(net.minecraft.tags.BlockTags.MINEABLE_WITH_PICKAXE,Tiers.IRON.getSpeed()),
             net.minecraft.world.item.component.Tool.Rule.minesAndDrops(net.minecraft.tags.BlockTags.MINEABLE_WITH_SHOVEL,Tiers.IRON.getSpeed())),1.0F,1));
     }
-    private boolean gauntlet() { return id.equals("rubracium_gauntlet"); }
+    private boolean gauntlet() { return id.endsWith("_gauntlet"); }
     @Override public boolean canPerformAction(ItemStack stack,net.neoforged.neoforge.common.ItemAbility ability) {
         return gauntlet() && (net.neoforged.neoforge.common.ItemAbilities.DEFAULT_PICKAXE_ACTIONS.contains(ability) || net.neoforged.neoforge.common.ItemAbilities.DEFAULT_SHOVEL_ACTIONS.contains(ability)) || super.canPerformAction(stack,ability);
     }
@@ -39,13 +39,13 @@ public final class GadgetItem extends Item {
     }
     @Override public boolean hurtEnemy(ItemStack stack,LivingEntity target,LivingEntity attacker) { GadgetLogic.hit(stack,target,attacker);return true; }
     @Override public boolean onEntitySwing(ItemStack stack,LivingEntity entity) {
-        if(id.equals("rubracium_gauntlet") && stack==entity.getMainHandItem() && entity.swingingArm==InteractionHand.MAIN_HAND && GadgetLogic.dualGauntlets(entity)) {entity.swing(InteractionHand.OFF_HAND,true);return true;}
+        if(gauntlet() && stack==entity.getMainHandItem() && entity.swingingArm==InteractionHand.MAIN_HAND && GadgetLogic.dualGauntlets(entity)) {entity.swing(InteractionHand.OFF_HAND,true);return true;}
         return false;
     }
-    @Override public int getEnchantmentValue() { return id.equals("brass_knuckles") || id.equals("rubracium_gauntlet")?1:0; }
+    @Override public int getEnchantmentValue() { return switch(id) {case "brass_knuckles","rubracium_gauntlet"->1;case "thaumium_knuckles"->15;case "void_gauntlet"->10;default->0;}; }
     @Override public boolean supportsEnchantment(ItemStack stack,net.minecraft.core.Holder<Enchantment> enchantment) {
         if(gauntlet() && enchantment.value().isSupportedItem(stack)) return true;
-        return (id.equals("brass_knuckles") || gauntlet()) && java.util.List.of("bane_of_arthropods","smite","mending","vanishing_curse","unbreaking","sharpness").stream().anyMatch(name->enchantment.is(net.minecraft.resources.ResourceKey.create(net.minecraft.core.registries.Registries.ENCHANTMENT,ResourceLocation.fromNamespaceAndPath("minecraft",name))));
+        return (id.endsWith("_knuckles") || gauntlet()) && java.util.List.of("bane_of_arthropods","smite","mending","vanishing_curse","unbreaking","sharpness").stream().anyMatch(name->enchantment.is(net.minecraft.resources.ResourceKey.create(net.minecraft.core.registries.Registries.ENCHANTMENT,ResourceLocation.fromNamespaceAndPath("minecraft",name))));
     }
     @Override public boolean isFoil(ItemStack stack) {
         if(id.equals("electrum_magnet")) return GadgetLogic.magnetMode(stack)>1;

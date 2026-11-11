@@ -29,8 +29,8 @@ public final class ArmorNetwork {
         event.registrar("3").playToClient(Corpse.TYPE,Corpse.CODEC,(message,context)->context.enqueueWork(()->it.hurts.metallurgy_reforged.effect.CorpseLifecycle.applyClient(context.player(),message.entityId(),message.stage())));
     }
     public static void send(int action) { PacketDistributor.sendToServer(new Action(action)); }
-    public static void phase(ServerPlayer player,boolean active) { PacketDistributor.sendToPlayer(player,new Phase(active)); }
+    public static void phase(ServerPlayer player,boolean active) { Net.send(player,new Phase(active)); }
     public static void corpse(net.minecraft.world.entity.LivingEntity entity,int stage) { PacketDistributor.sendToPlayersTrackingEntity(entity,new Corpse(entity.getId(),stage)); }
-    public static void corpse(ServerPlayer player,net.minecraft.world.entity.LivingEntity entity,int stage) { PacketDistributor.sendToPlayer(player,new Corpse(entity.getId(),stage)); }
+    public static void corpse(ServerPlayer player,net.minecraft.world.entity.LivingEntity entity,int stage) { Net.send(player,new Corpse(entity.getId(),stage)); }
     private ArmorNetwork() {}
 }

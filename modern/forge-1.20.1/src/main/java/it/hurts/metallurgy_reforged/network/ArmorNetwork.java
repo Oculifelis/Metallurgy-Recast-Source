@@ -17,8 +17,8 @@ public final class ArmorNetwork {
             .consumerMainThread((message,supplier)->{ net.minecraftforge.fml.DistExecutor.unsafeRunWhenOn(net.minecraftforge.api.distmarker.Dist.CLIENT,()->()->it.hurts.metallurgy_reforged.client.ArmorClientState.corpse(message.entityId,message.stage));supplier.get().setPacketHandled(true); }).add();
     }
     public static void send(int action) { CHANNEL.sendToServer(new Action(action)); }
-    public static void phase(net.minecraft.server.level.ServerPlayer player,boolean active) { CHANNEL.send(PacketDistributor.PLAYER.with(()->player),new Phase(active)); }
+    public static void phase(net.minecraft.server.level.ServerPlayer player,boolean active) { Net.send(CHANNEL,player,new Phase(active)); }
     public static void corpse(net.minecraft.world.entity.LivingEntity entity,int stage) { CHANNEL.send(PacketDistributor.TRACKING_ENTITY.with(()->entity),new Corpse(entity.getId(),stage)); }
-    public static void corpse(net.minecraft.server.level.ServerPlayer player,net.minecraft.world.entity.LivingEntity entity,int stage) { CHANNEL.send(PacketDistributor.PLAYER.with(()->player),new Corpse(entity.getId(),stage)); }
+    public static void corpse(net.minecraft.server.level.ServerPlayer player,net.minecraft.world.entity.LivingEntity entity,int stage) { Net.send(CHANNEL,player,new Corpse(entity.getId(),stage)); }
     private ArmorNetwork() {}
 }

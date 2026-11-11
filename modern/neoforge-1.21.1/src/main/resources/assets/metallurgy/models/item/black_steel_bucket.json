@@ -1,5 +1,6 @@
 {
   "parent": "neoforge:item/bucket",
   "loader": "neoforge:fluid_container",
-  "fluid": "metallurgy:black_steel"
+  "fluid": "metallurgy:black_steel",
+  "apply_fluid_luminosity": false
 }

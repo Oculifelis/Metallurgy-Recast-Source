@@ -7,7 +7,6 @@ import net.minecraft.world.entity.LivingEntity;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 @Mixin(LivingEntityRenderer.class)
 public abstract class CorpseRenderMixin {
     @Unique private boolean metallurgy$corpse;
@@ -16,6 +15,7 @@ public abstract class CorpseRenderMixin {
         metallurgy$corpse=CorpseRenderData.active(entity);
         if(metallurgy$corpse) pose.translate(CorpseRenderData.jitter(),0,CorpseRenderData.jitter());
     }
-    @ModifyArgs(method="render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V",at=@At(value="INVOKE",target="Lnet/minecraft/client/model/EntityModel;renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;III)V"))
-    private void metallurgy$tint(Args args) {if(metallurgy$corpse) args.set(4,CorpseRenderData.tint(args.<Integer>get(4)));}
+    // One @ModifyArg per value: @ModifyArgs needs a synthetic Args class that fails to load outside the mod's own run.
+    @ModifyArg(method="render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V",at=@At(value="INVOKE",target="Lnet/minecraft/client/model/EntityModel;renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;III)V"),index=4)
+    private int metallurgy$tint(int value) {return metallurgy$corpse?CorpseRenderData.tint(value):value;}
 }

@@ -1,5 +1,6 @@
 {
   "parent": "neoforge:item/bucket",
   "loader": "neoforge:fluid_container",
-  "fluid": "metallurgy:ceruclase"
+  "fluid": "metallurgy:ceruclase",
+  "apply_fluid_luminosity": false
 }

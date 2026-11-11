@@ -1,12 +1,14 @@
 {
   "sources": [
     {
-      "type": "minecraft:single",
-      "resource": "metallurgy:blocks/molten_metal_still"
+      "type": "minecraft:directory",
+      "source": "items",
+      "prefix": "items/"
     },
     {
-      "type": "minecraft:single",
-      "resource": "metallurgy:blocks/molten_metal_flow"
+      "type": "minecraft:directory",
+      "source": "blocks",
+      "prefix": "blocks/"
     },
     {
       "type": "minecraft:single",

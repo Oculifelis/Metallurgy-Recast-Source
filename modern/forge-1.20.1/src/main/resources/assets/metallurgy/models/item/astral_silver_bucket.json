@@ -1,5 +1,6 @@
 {
   "parent": "forge:item/bucket",
   "loader": "forge:fluid_container",
-  "fluid": "metallurgy:astral_silver"
+  "fluid": "metallurgy:astral_silver",
+  "apply_fluid_luminosity": false
 }

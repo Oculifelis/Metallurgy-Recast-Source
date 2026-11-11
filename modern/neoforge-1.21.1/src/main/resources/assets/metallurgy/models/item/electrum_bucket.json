@@ -1,5 +1,6 @@
 {
   "parent": "neoforge:item/bucket",
   "loader": "neoforge:fluid_container",
-  "fluid": "metallurgy:electrum"
+  "fluid": "metallurgy:electrum",
+  "apply_fluid_luminosity": false
 }

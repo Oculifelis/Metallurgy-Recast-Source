@@ -19,8 +19,8 @@ public final class KnucklesModel implements BakedModel {
     private final BakedModel flat;
     private KnucklesModel(BakedModel flat) {this.flat=flat;}
     @SubscribeEvent public static void bake(ModelEvent.ModifyBakingResult event) {
-        var key=new ModelResourceLocation(ResourceLocation.fromNamespaceAndPath("metallurgy","brass_knuckles"),"inventory");
-        event.getModels().computeIfPresent(key,(id,model)->new KnucklesModel(model));
+        for(String knuckles:List.of("brass_knuckles","thaumium_knuckles"))
+            event.getModels().computeIfPresent(new ModelResourceLocation(ResourceLocation.fromNamespaceAndPath("metallurgy",knuckles),"inventory"),(id,model)->new KnucklesModel(model));
     }
     @Override public BakedModel applyTransform(ItemDisplayContext context,PoseStack pose,boolean left) {
         flat.applyTransform(context,pose,left);

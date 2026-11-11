@@ -1,0 +1,40 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer"
+    }
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/steel"
+    },
+    "L": {
+      "tag": "c:leathers"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "PP ",
+    "LLI",
+    "PP "
+  ],
+  "research": {
+    "entry": "thaumaturge:bellows"
+  },
+  "result": {
+    "id": "thaumaturge:bellows"
+  },
+  "vis": 25,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/steel"
+      }
+    }
+  ]
+}

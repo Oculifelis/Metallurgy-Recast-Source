@@ -1,5 +1,6 @@
 {
   "parent": "forge:item/bucket",
   "loader": "forge:fluid_container",
-  "fluid": "metallurgy:sanguinite"
+  "fluid": "metallurgy:sanguinite",
+  "apply_fluid_luminosity": false
 }

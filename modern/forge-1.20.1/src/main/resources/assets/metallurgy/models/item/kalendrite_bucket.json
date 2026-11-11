@@ -1,5 +1,6 @@
 {
   "parent": "forge:item/bucket",
   "loader": "forge:fluid_container",
-  "fluid": "metallurgy:kalendrite"
+  "fluid": "metallurgy:kalendrite",
+  "apply_fluid_luminosity": false
 }

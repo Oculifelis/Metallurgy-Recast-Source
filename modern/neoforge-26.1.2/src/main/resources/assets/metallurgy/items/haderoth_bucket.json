@@ -6,6 +6,6 @@
       "base": "minecraft:item/bucket",
       "fluid": "neoforge:item/mask/bucket_fluid"
     },
-    "apply_fluid_luminosity": true
+    "apply_fluid_luminosity": false
   }
 }

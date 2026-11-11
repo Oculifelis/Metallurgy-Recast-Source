@@ -17,6 +17,7 @@ public final class Metallurgy {
         it.hurts.metallurgy_reforged.advancement.Advancements.register(bus);
         it.hurts.metallurgy_reforged.compat.OptionalPacks.register(bus);
         Content.register(bus);
+        if(net.neoforged.fml.ModList.get().isLoaded("thaumaturge")) it.hurts.metallurgy_reforged.compat.thaumaturge.ThaumaturgeCompat.register(bus);
         NeoForge.EVENT_BUS.register(EffectEvents.class);
         NeoForge.EVENT_BUS.register(it.hurts.metallurgy_reforged.gadget.BlockGadgetEvents.class);
         NeoForge.EVENT_BUS.register(it.hurts.metallurgy_reforged.config.GeneralEvents.class);

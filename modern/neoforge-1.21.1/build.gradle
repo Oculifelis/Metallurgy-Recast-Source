@@ -9,9 +9,9 @@ neoForge {
 }
 repositories { mavenCentral(); maven { url = 'https://maven.blamejared.com'; content { includeGroup 'mezz.jei' } } }
 
-version = '1.4.1-port.10'
+version = '1.4.4'
 group = 'it.hurts.metallurgy_reforged'
-base { archivesName = 'Metallurgy-Reforged-MC-1.21.1-neoforge' }
+base { archivesName = 'metallurgy-recast-1.21.1-neoforge' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 java.withSourcesJar()
 sourceSets.main.java.srcDir('../common/src/main/java')
@@ -28,3 +28,11 @@ if(project.hasProperty('verification')) {
 
 // Optional JEI API only; no dependency implementation is packaged.
 dependencies { compileOnly "mezz.jei:jei-1.21.1-common-api:19.64.0.455" }
+
+// Optional API only. Supply the author's unmodified Thaumaturge 1.1.0 JAR for 1.21.1; nothing of it is bundled.
+// Cap and rod textures are not in this repository (see docs/THAUMATURGE.md).
+def thaumaturgeApi = providers.gradleProperty('thaumaturgeJar').orElse(providers.environmentVariable('THAUMATURGE_JAR_1_21_1'))
+if (!thaumaturgeApi.isPresent()) {
+    throw new GradleException('Set -PthaumaturgeJar=/path/to/thaumaturge-1.21.1-NeoForge-1.1.0.jar (or THAUMATURGE_JAR_1_21_1). See modern/docs/THAUMATURGE.md.')
+}
+dependencies { compileOnly files(thaumaturgeApi.get()) }

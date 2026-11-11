@@ -1,5 +1,6 @@
 {
   "parent": "neoforge:item/bucket",
   "loader": "neoforge:fluid_container",
-  "fluid": "metallurgy:oureclase"
+  "fluid": "metallurgy:oureclase",
+  "apply_fluid_luminosity": false
 }

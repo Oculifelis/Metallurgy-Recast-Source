@@ -1,5 +1,6 @@
 {
   "parent": "neoforge:item/bucket",
   "loader": "neoforge:fluid_container",
-  "fluid": "metallurgy:desichalkos"
+  "fluid": "metallurgy:desichalkos",
+  "apply_fluid_luminosity": false
 }

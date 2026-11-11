@@ -1,5 +1,6 @@
 {
   "parent": "forge:item/bucket",
   "loader": "forge:fluid_container",
-  "fluid": "metallurgy:lemurite"
+  "fluid": "metallurgy:lemurite",
+  "apply_fluid_luminosity": false
 }

@@ -1,5 +1,6 @@
 {
   "parent": "neoforge:item/bucket",
   "loader": "neoforge:fluid_container",
-  "fluid": "metallurgy:molten_tar"
+  "fluid": "metallurgy:molten_tar",
+  "apply_fluid_luminosity": false
 }

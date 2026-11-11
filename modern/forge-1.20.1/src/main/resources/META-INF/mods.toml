@@ -3,10 +3,12 @@ loaderVersion="[47,)"
 license="GPL-3.0-only"
 [[mods]]
 modId="metallurgy"
-version="1.4.1-port.9"
-displayName="Metallurgy 4: Reforged"
+version="1.4.4"
+displayName="Metallurgy: Recast"
+logoFile="metallurgy_logo.png"
+logoBlur=false
 authors="Davoleo, Matpac, Metallurgy contributors; Metallurgy Chests by KreloX; modern port by Oculifelis"
-description="Modern port with integrated Metallurgy Chests."
+description="A modern continuation of Metallurgy 4: Reforged, with Metallurgy Chests built in."
 [[dependencies.metallurgy]]
 modId="spartanweaponry"
 mandatory=false

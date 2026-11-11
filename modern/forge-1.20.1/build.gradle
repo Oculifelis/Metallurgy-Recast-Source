@@ -16,9 +16,9 @@ repositories { maven { url = 'https://api.modrinth.com/maven'; content { include
 dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'; annotationProcessor 'org.spongepowered:mixin:0.8.5:processor' }
 tasks.named('jar').configure { finalizedBy 'reobfJar' }
 
-version = '1.4.1-port.9'
+version = '1.4.4'
 group = 'it.hurts.metallurgy_reforged'
-base { archivesName = 'Metallurgy-Reforged-MC-1.20.1-forge' }
+base { archivesName = 'metallurgy-recast-1.20.1-forge' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 java.withSourcesJar()
 sourceSets.main.java.srcDir('../common/src/main/java')

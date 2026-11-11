@@ -1,5 +1,6 @@
 {
   "parent": "forge:item/bucket",
   "loader": "forge:fluid_container",
-  "fluid": "metallurgy:mithril"
+  "fluid": "metallurgy:mithril",
+  "apply_fluid_luminosity": false
 }

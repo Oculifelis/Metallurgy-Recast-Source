@@ -15,8 +15,11 @@ public final class OptionalPacks {
         if(ModList.get().isLoaded("enderio")) pack(event,"enderio");
         if(GeneralConfig.silentGemsIntegration && ModList.get().isLoaded("silentgear")) pack(event,"silentgear");
         if(GeneralConfig.projectEIntegration && ModList.get().isLoaded("projecte")) pack(event,"projecte");
+        // Above Thaumaturge's own data, so its recipe swaps win.
+        if(GeneralConfig.thaumaturgeIntegration && ModList.get().isLoaded("thaumaturge")) pack(event,"thaumaturge",Pack.Position.TOP);
     }
-    private static void pack(AddPackFindersEvent event,String dependency) {
+    private static void pack(AddPackFindersEvent event,String dependency) {pack(event,dependency,Pack.Position.BOTTOM);}
+    private static void pack(AddPackFindersEvent event,String dependency,Pack.Position position) {
         var info=ModList.get().getModContainerById("metallurgy").orElseThrow().getModInfo();
         Pack.ResourcesSupplier original=BuiltInPackSource.fromName(location->new PathPackResources(location,info.getOwningFile().getFile().findResource("resourcepacks",dependency)));
         var resources=new Pack.ResourcesSupplier() {
@@ -25,7 +28,7 @@ public final class OptionalPacks {
         };
         // Configured resources differ from the jar bytes; never advertise an
         // unchanged KnownPack identity to skip synchronizing this server data.
-        var pack=Pack.readMetaAndCreate(new PackLocationInfo("metallurgy/"+dependency,Component.literal("Metallurgy: "+dependency),PackSource.BUILT_IN,Optional.empty()),resources,PackType.SERVER_DATA,new PackSelectionConfig(true,Pack.Position.BOTTOM,false));
+        var pack=Pack.readMetaAndCreate(new PackLocationInfo("metallurgy/"+dependency,Component.literal("Metallurgy: "+dependency),PackSource.BUILT_IN,Optional.empty()),resources,PackType.SERVER_DATA,new PackSelectionConfig(true,position,false));
         if(pack==null) throw new IllegalStateException("Invalid bundled Metallurgy pack: "+dependency);
         event.addRepositorySource(consumer->consumer.accept(pack));
     }

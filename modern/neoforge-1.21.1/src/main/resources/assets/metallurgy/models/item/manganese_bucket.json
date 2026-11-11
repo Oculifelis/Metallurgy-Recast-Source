@@ -1,5 +1,6 @@
 {
   "parent": "neoforge:item/bucket",
   "loader": "neoforge:fluid_container",
-  "fluid": "metallurgy:manganese"
+  "fluid": "metallurgy:manganese",
+  "apply_fluid_luminosity": false
 }

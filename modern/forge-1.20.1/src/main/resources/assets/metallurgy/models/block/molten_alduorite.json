@@ -1,5 +1,5 @@
 {
   "textures": {
-    "particle": "metallurgy:blocks/molten_metal_still"
+    "particle": "metallurgy:blocks/fluid/molten_alduorite_still"
   }
 }

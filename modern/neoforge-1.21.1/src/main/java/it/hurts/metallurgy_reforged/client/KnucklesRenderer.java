@@ -9,6 +9,7 @@ import net.minecraft.world.item.*;
 public final class KnucklesRenderer extends BlockEntityWithoutLevelRenderer {
     private static KnucklesRenderer instance;
     private static final ResourceLocation TEXTURE=ResourceLocation.fromNamespaceAndPath("metallurgy","textures/items/gadgets/brass_knuckles.png");
+    private static final ResourceLocation THAUMIUM=ResourceLocation.fromNamespaceAndPath("metallurgy","textures/items/gadgets/thaumium_knuckles.png");
     private final KnucklesParts[] models={new KnucklesParts(false,false),new KnucklesParts(false,true),new KnucklesParts(true,false),new KnucklesParts(true,true)};
     private KnucklesRenderer() {super(Minecraft.getInstance().getBlockEntityRenderDispatcher(),Minecraft.getInstance().getEntityModels());}
     public static KnucklesRenderer instance() {if(instance==null) instance=new KnucklesRenderer();return instance;}
@@ -27,7 +28,7 @@ public final class KnucklesRenderer extends BlockEntityWithoutLevelRenderer {
             var skin=buffers.getBuffer(RenderType.entityCutoutNoCull(player.getSkin().texture()));
             parts.arm.render(pose,skin,light,overlay);parts.sleeve.render(pose,skin,light,overlay);
         }
-        parts.knuckles.render(pose,ItemRenderer.getFoilBufferDirect(buffers,RenderType.entityCutoutNoCull(TEXTURE),false,stack.hasFoil()),light,overlay);
+        parts.knuckles.render(pose,ItemRenderer.getFoilBufferDirect(buffers,RenderType.entityCutoutNoCull(net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(stack.getItem()).getPath().equals("thaumium_knuckles")?THAUMIUM:TEXTURE),false,stack.hasFoil()),light,overlay);
         pose.popPose();
     }
 }

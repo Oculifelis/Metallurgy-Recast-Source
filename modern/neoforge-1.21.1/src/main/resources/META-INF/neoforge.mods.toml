@@ -3,10 +3,12 @@ loaderVersion="[4,)"
 license="GPL-3.0-only"
 [[mods]]
 modId="metallurgy"
-version="1.4.1-port.10"
-displayName="Metallurgy 4: Reforged"
+version="1.4.4"
+displayName="Metallurgy: Recast"
+logoFile="metallurgy_logo.png"
+logoBlur=false
 authors="Davoleo, Matpac, Metallurgy contributors; Metallurgy Chests by KreloX; modern port by Oculifelis"
-description="Modern port with integrated Metallurgy Chests."
+description="A modern continuation of Metallurgy 4: Reforged, with Metallurgy Chests built in."
 [[dependencies.metallurgy]]
 modId="silentgear"
 type="optional"
@@ -41,6 +43,13 @@ type="optional"
 versionRange="[19.64.0.455,20)"
 ordering="AFTER"
 side="CLIENT"
+
+[[dependencies.metallurgy]]
+modId="thaumaturge"
+type="optional"
+versionRange="[1.1.0,)"
+ordering="AFTER"
+side="BOTH"
 
 [[dependencies.metallurgy]]
 modId="patchouli"

@@ -3,14 +3,16 @@ import it.hurts.metallurgy_reforged.fluid.FluidCatalog;
 import net.minecraft.resources.Identifier;
 import net.neoforged.neoforge.client.extensions.common.IClientFluidTypeExtensions;
 
-/** Original animated fluid artwork, tinted with each original metal color. */
+/** Each fluid has its own coloured still and flow textures (drawn untinted); the still one repeats every 4 blocks. */
 @net.neoforged.fml.common.EventBusSubscriber(modid="metallurgy",value=net.neoforged.api.distmarker.Dist.CLIENT)
 public final class FluidRendering {
+    public static Identifier still(FluidCatalog.Definition definition) {return Identifier.fromNamespaceAndPath("metallurgy","blocks/fluid/"+definition.block()+"_still");}
+    public static Identifier flow(FluidCatalog.Definition definition) {return Identifier.fromNamespaceAndPath("metallurgy","blocks/fluid/"+definition.block()+"_flow");}
     public static IClientFluidTypeExtensions extensions(FluidCatalog.Definition definition) {
         return new IClientFluidTypeExtensions() {
-            public Identifier getStillTexture() {return Identifier.fromNamespaceAndPath("metallurgy","blocks/molten_metal_still");}
-            public Identifier getFlowingTexture() {return Identifier.fromNamespaceAndPath("metallurgy","blocks/molten_metal_flow");}
-            public int getTintColor() {return definition.color();}
+            public Identifier getStillTexture() {return still(definition);}
+            public Identifier getFlowingTexture() {return flow(definition);}
+            public int getTintColor() {return 0xFFFFFFFF;}
             public Identifier getRenderOverlayTexture(net.minecraft.client.Minecraft minecraft) {return definition.tar()?Identifier.fromNamespaceAndPath("metallurgy","textures/effects/fluid_tar.png"):null;}
         };
     }
@@ -20,11 +22,7 @@ public final class FluidRendering {
     }
     @net.neoforged.bus.api.SubscribeEvent
     public static void models(net.neoforged.neoforge.client.event.RegisterFluidModelsEvent event) {
-        for(var entry:it.hurts.metallurgy_reforged.fluid.FluidContent.ENTRIES.values()) {
-            var still=new net.minecraft.client.resources.model.sprite.Material(Identifier.fromNamespaceAndPath("metallurgy","blocks/molten_metal_still"));
-            var flow=new net.minecraft.client.resources.model.sprite.Material(Identifier.fromNamespaceAndPath("metallurgy","blocks/molten_metal_flow"));
-            event.register(new net.minecraft.client.renderer.block.FluidModel.Unbaked(still,flow,null,net.neoforged.neoforge.client.fluid.FluidTintSources.constant(entry.definition.color())),entry.still,entry.flowing);
-        }
+        for(var entry:it.hurts.metallurgy_reforged.fluid.FluidContent.ENTRIES.values()) event.register(FluidTextures.model(still(entry.definition),flow(entry.definition)),entry.still,entry.flowing);
     }
     private FluidRendering() {}
 }

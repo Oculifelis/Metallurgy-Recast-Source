@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 8
+    }
+  ],
+  "catalyst": {
+    "tag": "c:ingots/eximite"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:salis_mundus"
+    },
+    {
+      "tag": "c:ingots/eximite"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:alienis"
+        }
+      },
+      "type": "neoforge:components"
+    }
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "metallurgy:rod_eximite"
+  },
+  "result": {
+    "id": "metallurgy:wand_rod_eximite"
+  }
+}

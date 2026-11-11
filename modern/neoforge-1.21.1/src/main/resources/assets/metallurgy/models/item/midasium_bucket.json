@@ -1,5 +1,6 @@
 {
   "parent": "neoforge:item/bucket",
   "loader": "neoforge:fluid_container",
-  "fluid": "metallurgy:midasium"
+  "fluid": "metallurgy:midasium",
+  "apply_fluid_luminosity": false
 }

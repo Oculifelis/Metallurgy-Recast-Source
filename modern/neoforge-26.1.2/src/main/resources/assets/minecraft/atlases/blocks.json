@@ -2,14 +2,6 @@
   "sources": [
     {
       "type": "minecraft:single",
-      "resource": "metallurgy:blocks/molten_metal_still"
-    },
-    {
-      "type": "minecraft:single",
-      "resource": "metallurgy:blocks/molten_metal_flow"
-    },
-    {
-      "type": "minecraft:single",
       "resource": "metallurgy:particles/ore_particle_1"
     },
     {

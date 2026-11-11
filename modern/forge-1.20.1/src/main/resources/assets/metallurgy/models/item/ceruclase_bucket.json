@@ -1,5 +1,6 @@
 {
   "parent": "forge:item/bucket",
   "loader": "forge:fluid_container",
-  "fluid": "metallurgy:ceruclase"
+  "fluid": "metallurgy:ceruclase",
+  "apply_fluid_luminosity": false
 }

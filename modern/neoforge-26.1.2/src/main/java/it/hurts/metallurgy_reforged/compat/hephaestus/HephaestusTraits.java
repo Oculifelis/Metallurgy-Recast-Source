@@ -95,7 +95,7 @@ public final class HephaestusTraits {
         float speed=event.getNewSpeed();
         if(traits.contains("opistognathus") && player.isInWater()) speed*=3;
         if(traits.contains("unnatural") && tool.isCorrectToolForDrops(event.getState())) {
-            int needed=Arrays.stream(HarvestTier.values()).filter(t->t.canHarvest(event.getState())).mapToInt(HarvestTier::miningLevel).min().orElse(6);
+            int needed=com.titammods.hephaestus_tools.materials.tier.BuiltInTiers.definitions().keySet().stream().map(HarvestTier::of).filter(t->t.canHarvest(event.getState())).mapToInt(HarvestTier::miningLevel).min().orElse(6);
             speed+=Math.max(0,ToolStack.getHarvestTier(tool).miningLevel()-needed);
         }
         event.setNewSpeed(speed);

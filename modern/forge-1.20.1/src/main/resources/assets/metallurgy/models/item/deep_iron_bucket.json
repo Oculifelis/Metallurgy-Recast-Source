@@ -1,5 +1,6 @@
 {
   "parent": "forge:item/bucket",
   "loader": "forge:fluid_container",
-  "fluid": "metallurgy:deep_iron"
+  "fluid": "metallurgy:deep_iron",
+  "apply_fluid_luminosity": false
 }
