@@ -31,7 +31,6 @@ if(project.hasProperty('verification')) {
     sourceSets.main.resources.srcDir('../verification/neoforge-26.1.2/resources')
 }
 
-apply from: '../tools/no-game-launch.gradle'
 
 // Optional JEI API only; no dependency implementation is packaged.
 dependencies { compileOnly "mezz.jei:jei-26.1.2-common-api:29.47.0.111" }

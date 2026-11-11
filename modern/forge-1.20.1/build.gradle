@@ -34,7 +34,6 @@ if(project.hasProperty('verification')) {
     sourceSets.main.resources.srcDir('../verification/forge-1.20.1/resources')
 }
 
-apply from: '../tools/no-game-launch.gradle'
 
 // Optional JEI API only; no dependency implementation is packaged.
 dependencies { compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.71.0.224") }
