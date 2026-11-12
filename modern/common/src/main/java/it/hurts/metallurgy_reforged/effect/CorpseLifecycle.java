@@ -3,7 +3,7 @@ import it.hurts.metallurgy_reforged.network.ArmorNetwork;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.damagesource.DamageSource;
-/** Sanguinite keeps the actual slain mob and its behaviour, rather than spawning a
+/** Sanguinite keeps the actual slain mob and its behavior, rather than spawning a
  * generic replacement. Native player respawn remains owned by Minecraft. */
 public final class CorpseLifecycle {
     public static boolean deathTick(LivingEntity entity) {

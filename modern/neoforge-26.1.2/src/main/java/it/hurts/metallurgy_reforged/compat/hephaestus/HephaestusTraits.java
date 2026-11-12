@@ -95,7 +95,7 @@ public final class HephaestusTraits {
         float speed=event.getNewSpeed();
         if(traits.contains("opistognathus") && player.isInWater()) speed*=3;
         if(traits.contains("unnatural") && tool.isCorrectToolForDrops(event.getState())) {
-            int needed=com.titammods.hephaestus_tools.materials.tier.BuiltInTiers.definitions().keySet().stream().map(HarvestTier::of).filter(t->t.canHarvest(event.getState())).mapToInt(HarvestTier::miningLevel).min().orElse(6);
+            int needed=HarvestTiers.requiredLevel(event.getState());
             speed+=Math.max(0,ToolStack.getHarvestTier(tool).miningLevel()-needed);
         }
         event.setNewSpeed(speed);
@@ -159,7 +159,7 @@ public final class HephaestusTraits {
                 int size=(int)Math.min(remaining,result.getMaxStackSize());remaining-=size;
                 replacement.add(new ItemEntity(level,drop.getX(),drop.getY(),drop.getZ(),result.copyWithCount(size)));
             }
-            // The original awards cooking XP once per generated drop stack, not once per item.
+            // The original awards cooking XP once per created drop stack, not once per item.
             float exp=recipe.get().value().experience();
             int extra=exp>=1?(int)exp:level.getRandom().nextFloat()<exp?1:0;
             xp=(int)Math.min(Integer.MAX_VALUE,(long)xp+extra);
