@@ -57,12 +57,26 @@ public final class EquipmentEffects {
         if(!it.hurts.metallurgy_reforged.config.ConfigFiles.effect(metal,"armor")) return 0;
         return rawArmorLevel(entity,metal);
     }
+    private static final EquipmentSlot[] ARMOR_SLOT_ARRAY=ARMOR_SLOTS.toArray(new EquipmentSlot[0]);
+    /** Item to the base metal of a Metallurgy armour piece, "" for any other item. Item ids and
+     * the metal list are fixed once registries freeze, so each item is resolved only once
+     * instead of building id strings for every armour slot of every mob on every tick. */
+    private static final Map<net.minecraft.world.item.Item,String> ARMOR_METAL=new java.util.concurrent.ConcurrentHashMap<>();
+    private static String armorMetal(ItemStack stack) {
+        if(stack.isEmpty()) return "";
+        return ARMOR_METAL.computeIfAbsent(stack.getItem(),item->accepts(stack,Category.ARMOR)?baseMetal(stack):"");
+    }
+    /** True when any armour slot holds a Metallurgy armour piece. */
+    public static boolean wearsArmor(LivingEntity entity) {
+        for(EquipmentSlot slot:ARMOR_SLOT_ARRAY) if(!armorMetal(entity.getItemBySlot(slot)).isEmpty()) return true;
+        return false;
+    }
     private static int rawArmorLevel(LivingEntity entity,String metal) {
         int count=0;
-        for(EquipmentSlot slot:ARMOR_SLOTS) {
+        for(EquipmentSlot slot:ARMOR_SLOT_ARRAY) {
             ItemStack piece=entity.getItemBySlot(slot);
-            if(!accepts(piece,Category.ARMOR)) continue;
-            String base=baseMetal(piece);
+            String base=armorMetal(piece);
+            if(base.isEmpty()) continue;
             if(base.equals(metal)) count++;
             else if(base.equals("tartarite") && material(piece).equals(metal)) count+=2;
         }

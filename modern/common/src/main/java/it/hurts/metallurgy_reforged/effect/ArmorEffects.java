@@ -116,8 +116,14 @@ public final class ArmorEffects {
         if(stacks>0) VersionBridge.attribute(entity,"armor","vyroxeres_armor",stacks*(count<=2?count:count-0.5),0);
         else VersionBridge.removeAttribute(entity,"armor","vyroxeres_armor");
     }
+    /** Entities that wore Metallurgy armour on their last tick. */
+    private static final Set<LivingEntity> ARMORED=Collections.synchronizedSet(Collections.newSetFromMap(new WeakHashMap<>()));
     public static void tick(LivingEntity entity) {
         if(!(entity.level() instanceof net.minecraft.server.level.ServerLevel level)) return;
+        // Every effect in this pass needs Metallurgy armour, so mobs without any skip it. One
+        // more pass runs on the tick the armour comes off, which removes its attribute modifiers.
+        if(EquipmentEffects.wearsArmor(entity)) ARMORED.add(entity);
+        else if(!ARMORED.remove(entity)) return;
         ArmorLifecycle.livingTick(entity);
         if(level(entity,"atlarus")>0) for(Entity other:level.getEntities(entity,entity.getBoundingBox().inflate(3))) {
             double distance=other.position().distanceTo(new Vec3(other.xo,other.yo,other.zo));

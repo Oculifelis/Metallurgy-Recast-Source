@@ -39,6 +39,7 @@ public final class VerificationBootstrap {
             helper.register(Identifier.fromNamespaceAndPath("metallurgy","sanguiniteoriginalmobrevivesonlyonce"),CoreGameTests::sanguiniteOriginalMobRevivesOnlyOnce);
             helper.register(Identifier.fromNamespaceAndPath("metallurgy","damascusknightidentitydamageandownercleanup"),CoreGameTests::damascusKnightIdentityDamageAndOwnerCleanup);
             helper.register(Identifier.fromNamespaceAndPath("metallurgy","statemachinesroundtrip"),CoreGameTests::stateMachinesRoundTrip);
+            helper.register(Identifier.fromNamespaceAndPath("metallurgy","livingtickarmorskip"),CoreGameTests::livingTickArmorSkip);
         });
     }
 }

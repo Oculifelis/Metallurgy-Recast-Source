@@ -1,8 +1,10 @@
 license="GPL-3.0-only"
+issueTrackerURL="https://github.com/Oculifelis/Metallurgy-Recast-Source/issues"
 [[mods]]
 modId="metallurgy"
-version="1.4.4"
+version="1.4.5"
 displayName="Metallurgy: Recast"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/metallurgy-recast"
 logoFile="metallurgy_logo.png"
 logoBlur=false
 authors="Davoleo, Matpac, Metallurgy contributors; Metallurgy Chests by KreloX; modern port by Oculifelis"

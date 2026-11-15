@@ -541,6 +541,56 @@ public final class CoreGameTests {
         });
     }
 
+    /** Armour pass skips mobs without Metallurgy armour, still cleans up on the tick armour comes off,
+     * and costs less per unarmoured mob than the 1.4.4 pass (timed against a copy of its lookups). */
+    public static void livingTickArmorSkip(GameTestHelper helper) {
+        net.minecraft.world.entity.animal.cow.Cow worn=livingVictim(helper.getLevel(),helper);worn.setItemSlot(EquipmentSlot.HEAD,Content.stack("vyroxeres_helmet"));
+        VersionBridge.buff(worn,"speed",200,1);
+        float base=Materials.BY_NAME.get("vyroxeres").defense(3);
+        helper.runAfterDelay(3,()->{
+            close(helper,(float)worn.getAttributeValue(Attributes.ARMOR),base+2,"Armoured mob still gets its Vyroxeres bonus");
+            worn.setItemSlot(EquipmentSlot.HEAD,ItemStack.EMPTY);
+        });
+        helper.runAfterDelay(6,()->{
+            close(helper,(float)worn.getAttributeValue(Attributes.ARMOR),0,"Ticks after unequipping remove the modifier");
+            ArmorEffects.tick(worn);
+            close(helper,(float)worn.getAttributeValue(Attributes.ARMOR),0,"Unarmoured mob stays clean");
+            benchmark(helper);
+        });
+    }
+    private static void benchmark(GameTestHelper helper) {
+        java.util.List<LivingEntity> mobs=new java.util.ArrayList<>();
+        for(int i=0;i<64;i++) mobs.add(livingVictim(helper.getLevel(),helper));
+        String[] metals={"ignatius","atlarus","ceruclase","deep_iron","astral_silver","carmot","kalendrite","platinum","oureclase","angmallen","vyroxeres","vyroxeres"};
+        long sink=0;
+        for(int warm=0;warm<200;warm++) for(LivingEntity mob:mobs) { ArmorEffects.tick(mob);sink+=oldUnarmoredPass(mob,metals); }
+        int rounds=2000;
+        long t0=System.nanoTime();
+        for(int r=0;r<rounds;r++) for(LivingEntity mob:mobs) sink+=oldUnarmoredPass(mob,metals);
+        long t1=System.nanoTime();
+        for(int r=0;r<rounds;r++) for(LivingEntity mob:mobs) ArmorEffects.tick(mob);
+        long t2=System.nanoTime();
+        double before=(t1-t0)/(double)(rounds*mobs.size()),after=(t2-t1)/(double)(rounds*mobs.size());
+        org.slf4j.LoggerFactory.getLogger("metallurgy").info("LIVINGTICK-BENCH unarmoured mob armour pass: before {} ns, after {} ns, x{} ({})",String.format("%.0f",before),String.format("%.0f",after),String.format("%.1f",before/after),sink);
+        helper.assertTrue(after<before,"New armour pass is cheaper for unarmoured mobs");
+        helper.succeed();
+    }
+    /** The lookups 1.4.4 ran for every living entity on every server tick, whatever it wore. */
+    private static long oldUnarmoredPass(LivingEntity entity,String[] metals) {
+        long found=0;
+        for(String metal:metals) {
+            if(!it.hurts.metallurgy_reforged.config.ConfigFiles.effect(metal,"armor")) continue;
+            for(EquipmentSlot slot:EquipmentEffects.ARMOR_SLOTS) {
+                ItemStack piece=entity.getItemBySlot(slot);
+                if(!EquipmentEffects.accepts(piece,EquipmentEffects.Category.ARMOR)) continue;
+                if(EquipmentEffects.baseMetal(piece).equals(metal)) found++;
+            }
+        }
+        for(EquipmentSlot slot:EquipmentEffects.ARMOR_SLOTS) if(EquipmentEffects.material(entity.getItemBySlot(slot)).equals("haderoth")) found++;
+        VersionBridge.removeAttribute(entity,"swim_speed","deep_iron_swim");
+        VersionBridge.removeAttribute(entity,"armor","vyroxeres_armor");
+        return found;
+    }
     private static net.minecraft.world.entity.animal.cow.Cow livingVictim(ServerLevel level,GameTestHelper helper) {
         var cow=new net.minecraft.world.entity.animal.cow.Cow(EntityType.COW,level);
         cow.setPos(helper.absolutePos(new BlockPos(6,2,6)).getCenter());
