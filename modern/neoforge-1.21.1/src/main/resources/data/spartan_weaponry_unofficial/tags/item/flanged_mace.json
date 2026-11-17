@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:mace_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mace_vyroxeres",
+      "required": false
+    }
+  ]
+}

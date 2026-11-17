@@ -2,7 +2,7 @@ license="GPL-3.0-only"
 issueTrackerURL="https://github.com/Oculifelis/Metallurgy-Recast-Source/issues"
 [[mods]]
 modId="metallurgy"
-version="1.4.5"
+version="1.4.9"
 displayName="Metallurgy: Recast"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/metallurgy-recast"
 logoFile="metallurgy_logo.png"
@@ -24,7 +24,7 @@ side="BOTH"
 [[dependencies.metallurgy]]
 modId="neoforge"
 type="required"
-versionRange="[26.1.2.122,)"
+versionRange="[26.1.2.71,)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.metallurgy]]

@@ -1,0 +1,22 @@
+{
+  "parent": "spartan_weaponry_unofficial:item/base/spear",
+  "loader": "spartan_weaponry_unofficial:oil_coated_item",
+  "overrides": [
+    {
+      "model": "metallurgy:item/spear_prometheum_blocking",
+      "predicate": {
+        "spartan_weaponry_unofficial:blocking": 1.0
+      }
+    },
+    {
+      "model": "metallurgy:item/spear_prometheum_throwing",
+      "predicate": {
+        "spartan_weaponry_unofficial:throwing": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "coating": "spartan_weaponry_unofficial:item/coating/spear",
+    "layer0": "metallurgy:item/spartan/prometheum/spear"
+  }
+}

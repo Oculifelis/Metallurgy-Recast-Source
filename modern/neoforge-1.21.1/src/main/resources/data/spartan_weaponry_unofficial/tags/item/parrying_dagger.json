@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:parrying_dagger_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:parrying_dagger_vyroxeres",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:staff_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_vyroxeres",
+      "required": false
+    }
+  ]
+}

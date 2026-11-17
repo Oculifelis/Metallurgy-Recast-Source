@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:greatsword_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:greatsword_vyroxeres",
+      "required": false
+    }
+  ]
+}

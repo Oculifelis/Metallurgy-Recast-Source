@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spartan_weaponry_unofficial"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HI",
+    " I"
+  ],
+  "key": {
+    "H": {
+      "item": "spartan_weaponry_unofficial:handle"
+    },
+    "I": {
+      "tag": "c:ingots/angmallen"
+    }
+  },
+  "result": {
+    "id": "metallurgy:throwing_axe_angmallen",
+    "count": 1
+  }
+}

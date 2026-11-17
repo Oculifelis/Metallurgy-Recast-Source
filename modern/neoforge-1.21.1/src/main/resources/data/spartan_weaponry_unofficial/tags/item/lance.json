@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:lance_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lance_vyroxeres",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:longbow_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longbow_vyroxeres",
+      "required": false
+    }
+  ]
+}

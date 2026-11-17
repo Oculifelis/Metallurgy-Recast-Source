@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spartan_weaponry_unofficial"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "I",
+    "H"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/tartarite"
+    },
+    "H": {
+      "item": "spartan_weaponry_unofficial:handle"
+    }
+  },
+  "result": {
+    "id": "metallurgy:dagger_tartarite",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spartan_weaponry_unofficial"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "PI"
+  ],
+  "key": {
+    "P": {
+      "item": "spartan_weaponry_unofficial:pole"
+    },
+    "I": {
+      "tag": "c:ingots/mithril"
+    }
+  },
+  "result": {
+    "id": "metallurgy:javelin_mithril",
+    "count": 1
+  }
+}

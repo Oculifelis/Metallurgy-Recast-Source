@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:pike_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:pike_vyroxeres",
+      "required": false
+    }
+  ]
+}

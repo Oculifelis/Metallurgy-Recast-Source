@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:javelin_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:javelin_vyroxeres",
+      "required": false
+    }
+  ]
+}

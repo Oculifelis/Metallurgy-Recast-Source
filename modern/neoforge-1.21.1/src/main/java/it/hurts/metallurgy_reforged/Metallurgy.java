@@ -18,6 +18,7 @@ public final class Metallurgy {
         it.hurts.metallurgy_reforged.compat.OptionalPacks.register(bus);
         Content.register(bus);
         if(net.neoforged.fml.ModList.get().isLoaded("thaumaturge")) it.hurts.metallurgy_reforged.compat.thaumaturge.ThaumaturgeCompat.register(bus);
+        if(net.neoforged.fml.ModList.get().isLoaded(it.hurts.metallurgy_reforged.compat.spartan.SpartanIntegration.SPARTAN) && it.hurts.metallurgy_reforged.config.GeneralConfig.spartanWeaponryIntegration) it.hurts.metallurgy_reforged.compat.spartan.SpartanIntegration.register(bus);
         NeoForge.EVENT_BUS.register(EffectEvents.class);
         NeoForge.EVENT_BUS.register(it.hurts.metallurgy_reforged.gadget.BlockGadgetEvents.class);
         NeoForge.EVENT_BUS.register(it.hurts.metallurgy_reforged.config.GeneralEvents.class);

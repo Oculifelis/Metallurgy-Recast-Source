@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:hammer_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:hammer_vyroxeres",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:boomerang_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:boomerang_vyroxeres",
+      "required": false
+    }
+  ]
+}

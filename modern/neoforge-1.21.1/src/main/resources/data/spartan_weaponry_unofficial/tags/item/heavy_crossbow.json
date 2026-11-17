@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:crossbow_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:crossbow_vyroxeres",
+      "required": false
+    }
+  ]
+}

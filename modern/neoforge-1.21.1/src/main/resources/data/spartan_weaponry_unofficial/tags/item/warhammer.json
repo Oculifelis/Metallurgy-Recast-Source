@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:warhammer_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:warhammer_vyroxeres",
+      "required": false
+    }
+  ]
+}

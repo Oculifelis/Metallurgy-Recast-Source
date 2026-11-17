@@ -1,0 +1,22 @@
+{
+  "parent": "spartan_weaponry_unofficial:item/base/pike",
+  "loader": "spartan_weaponry_unofficial:oil_coated_item",
+  "overrides": [
+    {
+      "model": "metallurgy:item/pike_vulcanite_blocking",
+      "predicate": {
+        "spartan_weaponry_unofficial:blocking": 1.0
+      }
+    },
+    {
+      "model": "metallurgy:item/pike_vulcanite_throwing",
+      "predicate": {
+        "spartan_weaponry_unofficial:throwing": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "coating": "spartan_weaponry_unofficial:item/coating/pike",
+    "layer0": "metallurgy:item/spartan/vulcanite/pike"
+  }
+}

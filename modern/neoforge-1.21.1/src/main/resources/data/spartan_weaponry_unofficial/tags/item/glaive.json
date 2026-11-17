@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:glaive_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:glaive_vyroxeres",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:rapier_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rapier_vyroxeres",
+      "required": false
+    }
+  ]
+}

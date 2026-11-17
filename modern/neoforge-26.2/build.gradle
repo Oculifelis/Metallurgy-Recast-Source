@@ -1,0 +1,57 @@
+plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.148' }
+neoForge {
+    version = '26.2.0.90'
+    runs {
+        server { server(); programArgument '--nogui' }
+        gameTestServer { type = 'gameTestServer'; systemProperty 'neoforge.enabledGameTestNamespaces', 'metallurgy' }
+    }
+    mods { metallurgy { sourceSet sourceSets.main } }
+}
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.blamejared.com'; content { includeGroup 'mezz.jei' } }
+    maven { url = 'https://cursemaven.com'; content { includeGroup 'curse.maven' } }
+}
+
+version = '1.4.4'
+group = 'it.hurts.metallurgy_reforged'
+base { archivesName = 'metallurgy-recast-26.2-neoforge' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+java.withSourcesJar()
+sourceSets.main.java.srcDir('../common/src/main/java')
+// Native 26 recipes use ItemStackTemplate; the older targets retain their ItemStack definition.
+def commonJavaRoot = file('../common/src/main/java').toPath().toAbsolutePath().normalize()
+sourceSets.main.java.exclude { entry ->
+    ['it/hurts/metallurgy_reforged/machine/ProcessingDefinition.java', 'it/hurts/metallurgy_reforged/effect/ArmorEffects.java', 'it/hurts/metallurgy_reforged/effect/ArmorPhasing.java', 'it/hurts/metallurgy_reforged/effect/WeaponLifecycle.java', 'it/hurts/metallurgy_reforged/gadget/ShieldLogic.java', 'it/hurts/metallurgy_reforged/world/TarLakeFeature.java'].contains(entry.path) &&
+        entry.file.toPath().toAbsolutePath().normalize().startsWith(commonJavaRoot)
+}
+sourceSets.main.resources.srcDir('../common/src/main/resources')
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+jar { from('../LICENSE'); from('../NOTICE.md') }
+
+// Optional JEI API only; no dependency implementation is packaged.
+dependencies { compileOnly "mezz.jei:jei-26.2-common-api:30.42.0.237" }
+
+// No matching Hephaestus Tools build is catalogued for this target.
+// Thaumaturge 1.1.0 is compile-only; its code and textures are not packaged.
+def thaumaturgeApi = providers.gradleProperty('thaumaturgeJar').orElse(providers.environmentVariable('THAUMATURGE_JAR'))
+dependencies {
+    if (thaumaturgeApi.isPresent()) compileOnly files(thaumaturgeApi.get())
+    else compileOnly('curse.maven:thaumaturge-1628024:9428045') { transitive = false }
+}
+
+// Native verification is a separate mod; ordinary jars contain only main.
+sourceSets {
+    verification {
+        java.srcDir('../verification/neoforge-26.2/java')
+        resources.srcDir('../verification/neoforge-26.2/resources')
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+neoForge.addModdingDependenciesTo(sourceSets.verification)
+neoForge.mods {
+    metallurgy_checks { sourceSet sourceSets.verification }
+}
+neoForge.runs.server.loadedMods = [neoForge.mods.metallurgy]
+neoForge.runs.gameTestServer.loadedMods = [neoForge.mods.metallurgy, neoForge.mods.metallurgy_checks]

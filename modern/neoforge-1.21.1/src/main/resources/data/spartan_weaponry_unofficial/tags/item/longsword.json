@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:longsword_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:longsword_vyroxeres",
+      "required": false
+    }
+  ]
+}

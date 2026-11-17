@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spartan_weaponry_unofficial"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " I",
+    " I",
+    "IH"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/inolashite"
+    },
+    "H": {
+      "item": "spartan_weaponry_unofficial:handle"
+    }
+  },
+  "result": {
+    "id": "metallurgy:saber_inolashite",
+    "count": 1
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:halberd_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:halberd_vyroxeres",
+      "required": false
+    }
+  ]
+}

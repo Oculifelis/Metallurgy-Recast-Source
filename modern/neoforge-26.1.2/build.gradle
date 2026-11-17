@@ -13,7 +13,7 @@ repositories {
     maven { url = 'https://cursemaven.com'; content { includeGroup 'curse.maven' } }
 }
 
-version = '1.4.5'
+version = '1.4.9'
 group = 'it.hurts.metallurgy_reforged'
 base { archivesName = 'metallurgy-recast-26.1.2-neoforge' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(25)

@@ -7,6 +7,7 @@ apply plugin: 'org.spongepowered.mixin'
 minecraft {
     mappings channel: 'official', version: '1.20.1'
     runs {
+        client { workingDirectory project.file('run-client-check'); mods { metallurgy { source sourceSets.main } } }
         server { workingDirectory project.file('run'); args '--nogui'; mods { metallurgy { source sourceSets.main } } }
         gameTestServer { workingDirectory project.file('run'); property 'forge.enabledGameTestNamespaces', 'metallurgy'; mods { metallurgy { source sourceSets.main } } }
     }
@@ -16,7 +17,7 @@ repositories { maven { url = 'https://api.modrinth.com/maven'; content { include
 dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'; annotationProcessor 'org.spongepowered:mixin:0.8.5:processor' }
 tasks.named('jar').configure { finalizedBy 'reobfJar' }
 
-version = '1.4.5'
+version = '1.4.9'
 group = 'it.hurts.metallurgy_reforged'
 base { archivesName = 'metallurgy-recast-1.20.1-forge' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)

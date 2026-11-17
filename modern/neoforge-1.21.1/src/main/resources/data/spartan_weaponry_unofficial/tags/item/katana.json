@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:katana_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:katana_vyroxeres",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:spear_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:spear_vyroxeres",
+      "required": false
+    }
+  ]
+}

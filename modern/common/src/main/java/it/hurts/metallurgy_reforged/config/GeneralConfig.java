@@ -60,11 +60,6 @@ public class GeneralConfig {
     @Config.RequiresMcRestart
     public static boolean thaumaturgeSwapGolemFetter = true;
 
-	@Config.Name("Enable On World Join Message")
-	@Config.Comment("When set to true it shows the warning message when joining the world")
-	@Config.RequiresMcRestart
-	public static boolean warning = true;
-
 	@Config.Name("Road Speed Multiplier")
 	@Config.Comment("Set the road speed multiplier")
 	@Config.RangeDouble(min = 1)

@@ -2,12 +2,10 @@ package it.hurts.metallurgy_reforged.config;
 import it.hurts.metallurgy_reforged.content.Content;
 import it.hurts.metallurgy_reforged.material.Materials;
 import it.hurts.metallurgy_reforged.effect.VersionBridge;
-import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.AnvilUpdateEvent;
 import java.util.*;
 public final class GeneralEvents {
@@ -38,10 +36,6 @@ public final class GeneralEvents {
         String metal=id.substring(11,id.lastIndexOf('_'));
         boolean ingot=VersionBridge.itemId(right).equals("metallurgy:"+metal+"_ingot") || VersionBridge.itemTag(right,"ingots/"+metal);
         if(ingot && (armor && !GeneralConfig.enableAnvilArmorRepair || tool && !GeneralConfig.enableAnvilToolRepair)) event.setCanceled(true);
-    }
-    @SubscribeEvent public static void login(PlayerEvent.PlayerLoggedInEvent event) {
-        if(!event.getEntity().level().isClientSide && GeneralConfig.warning)
-            for(String key:List.of("message.world_join_message.1","message.world_join_message.3","message.github_repo_url","message.world_join_message.4")) event.getEntity().sendSystemMessage(Component.translatable(key));
     }
     private GeneralEvents() {}
 }

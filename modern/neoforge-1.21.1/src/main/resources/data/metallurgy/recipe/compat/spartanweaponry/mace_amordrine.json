@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spartan_weaponry_unofficial"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " II",
+    " SI",
+    "H  "
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/amordrine"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "H": {
+      "item": "spartan_weaponry_unofficial:handle"
+    }
+  },
+  "result": {
+    "id": "metallurgy:mace_amordrine",
+    "count": 1
+  }
+}

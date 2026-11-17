@@ -1,4 +1,5 @@
 {
+  "render_type": "minecraft:cutout",
   "credit": "Made with Blockbench, by matpac for M4R",
   "textures": {
     "0": "metallurgy:blocks/sublimation_chamber_active",

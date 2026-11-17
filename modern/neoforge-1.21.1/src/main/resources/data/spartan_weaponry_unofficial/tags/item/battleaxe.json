@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:battleaxe_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:battleaxe_vyroxeres",
+      "required": false
+    }
+  ]
+}

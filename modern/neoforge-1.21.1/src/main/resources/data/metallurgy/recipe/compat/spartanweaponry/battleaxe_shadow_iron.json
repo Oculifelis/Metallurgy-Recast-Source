@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spartan_weaponry_unofficial"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "III",
+    "ISI",
+    " H "
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/shadow_iron"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "H": {
+      "item": "spartan_weaponry_unofficial:handle"
+    }
+  },
+  "result": {
+    "id": "metallurgy:battleaxe_shadow_iron",
+    "count": 1
+  }
+}

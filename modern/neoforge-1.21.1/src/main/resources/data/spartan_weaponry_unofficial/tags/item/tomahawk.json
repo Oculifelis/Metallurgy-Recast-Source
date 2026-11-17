@@ -1,0 +1,160 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:throwing_axe_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_angmallen",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_black_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_brass",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_celenegil",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_copper",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_damascus_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_electrum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_haderoth",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_hepatizon",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_inolashite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:throwing_axe_vyroxeres",
+      "required": false
+    }
+  ]
+}

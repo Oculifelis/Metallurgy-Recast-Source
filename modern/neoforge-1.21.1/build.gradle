@@ -2,6 +2,7 @@ plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.148' }
 neoForge {
     version = '21.1.262'
     runs {
+        client { client(); gameDirectory = project.file('run/client') }
         server { server(); programArgument '--nogui' }
         gameTestServer { type = 'gameTestServer'; systemProperty 'neoforge.enabledGameTestNamespaces', 'metallurgy' }
     }
@@ -13,7 +14,7 @@ repositories {
     maven { url = 'https://cursemaven.com'; content { includeGroup 'curse.maven' } }
 }
 
-version = '1.4.5'
+version = '1.4.9'
 group = 'it.hurts.metallurgy_reforged'
 base { archivesName = 'metallurgy-recast-1.21.1-neoforge' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
@@ -39,3 +40,8 @@ dependencies {
     if (thaumaturgeApi.isPresent()) compileOnly files(thaumaturgeApi.get())
     else compileOnly('curse.maven:thaumaturge-1628024:9452543') { transitive = false }
 }
+
+// Spartan Weaponry (unofficial 1.21.1 port, API 15) is compile-only; the integration loads only when that mod is present.
+def spartanApi = providers.gradleProperty('spartanJar').orElse(providers.environmentVariable('SPARTAN_JAR_1_21_1'))
+    .orElse('H:/AI_MC_Modding/SpartanCompat/libs/spartan_weaponry_unofficial-1.2.3-1.21.1.jar')
+dependencies { compileOnly files(spartanApi.get()) }
